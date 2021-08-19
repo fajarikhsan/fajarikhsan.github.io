@@ -6,7 +6,8 @@
 
 #home,
 #projects,
-#footer {
+#footer,
+#contact {
   background-color: #f0f0cb;
 }
 
@@ -20,4 +21,13 @@ section {
 
 p {
   margin: 0 !important;
+}
+
+div.imgContainer {
+  min-width: 15em;
+  min-height: 15em;
+  max-width: 15em;
+  max-height: 15em;
+  padding: 13px;
+  display: inline-block;
 }
